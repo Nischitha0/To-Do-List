@@ -1,0 +1,78 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  width: 400px;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgba(228, 230, 235, 0.375);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.618);
+}
+body{
+  background-image: url(https://plus.unsplash.com/premium_photo-1683309567810-4d232ee83d2f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dG9kbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+button{
+  background-color: cadetblue;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.upbts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+.MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.btttns {
+  display: flex;
+  align-items: center;
+}
+
+.MuiButton-root {
+  margin-left: 10px;
+}
+
+.MuiListItem-root {
+  /* background-color: #edf2ef; */
+
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  font-size: medium;
+}
+
+.MuiListItem-root:hover {
+  transform: scale(1.02);
+}
+
+.MuiListItemText-primary {
+  color: #333;
+}
+
+.MuiIconButton-root {
+  color: #f44336;   
+}
+
+.MuiIconButton-root:hover {
+  color: #d32f2f; 
+}
+
+.MuiTypography-h5 {
+  text-align: center;
+  color: black;
+}
